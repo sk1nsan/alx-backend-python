@@ -8,7 +8,7 @@ from unittest.mock import (
     Mock,
     PropertyMock,
     patch)
-from parameterized import parameterized, parameterized_class
+from parameterized import parameterized, parameterized_class  # type: ignore
 from requests import HTTPError
 from client import GithubOrgClient
 from fixtures import TEST_PAYLOAD
